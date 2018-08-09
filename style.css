@@ -1,0 +1,189 @@
+* {
+    font-family: 微軟正黑體;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+header {
+    box-sizing: border-box;
+    height: 380px;
+    width: 100%;
+    /* background-color: #f24; */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: 100%;
+    background-image: url(https://hexschool.github.io/JavaScript_HomeWork/assets/the-urban-landscape-1698285.png);  
+}
+
+h1 {
+    font-size: 40px;
+    color: #FFFFFF;
+    letter-spacing: 3.89px;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#select_box {
+    background: rgba(255, 255, 255, 0.70);
+    border: 3px solid #FFFFFF;
+    border-radius: 5px;
+    width: 450px;
+    height: 48px;
+    position: absolute;
+    top: 225px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+    font-size: 18px;
+    font-size: 18px;
+    color: #000000;
+    line-height: 21px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dataCardBox {
+    padding: 32px 32px 0px 32px;
+    width: 1024px;
+    list-style: none;
+    box-sizing: border-box;
+    /* background-color: #333; */
+}
+
+.dataCard {
+    width: 464px;
+    height: 273px;
+    margin: 18px 8px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+    display: inline-block;
+    
+}
+
+
+.picbox {
+    height: 155px;
+    background-color: #666;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s;
+}
+
+.picbox:hover {
+    background-size: 120%;
+}
+
+
+.picbox h3 {
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: normal;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    width: 464px;
+    padding-left: 22px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.54) 100%);
+}
+
+.picbox p {
+    font-size: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 8px;
+    right: 24px;
+}
+
+.txtbox {
+    height: 118px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding-left: 20px;
+}
+
+.txtbox .box,
+.visitBox .box {
+    height: 21px;
+    display: flex;
+}
+
+.txtbox .box {
+    margin-bottom: 9px;
+}
+
+.txtbox .img,
+.visitBox .img {
+    height: 21px;
+    width: 21px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.txtbox p,
+.visitBox p {
+    font-size: 16px;
+    line-height: 21px;
+    white-space: nowrap;
+    /* width: 50px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.visitBox {
+    position: absolute;
+    width: 100px;
+    display: flex;
+    bottom: 19px;
+    right: 24px;
+}
+
+.pageNav {
+    list-style: none;
+    display: flex;
+    margin: 36px 36px 49px 36px;
+}
+
+.pageNav li {
+    /* background-color: #f24; */
+    font-size: 14px;
+    color: #4A4A4A;
+    padding: 0px 12px;
+    cursor: pointer;
+}
+
+
+
+footer {
+    height: 90px;
+    background: #559AC8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+footer h5 {
+    font-size: 14px;
+    color: #FFD366;
+}
+
