@@ -58,7 +58,7 @@ function select_change(e) {
     console.log(selectValue);
     
     var dataCardBox_li_00 = '<h2 class="dataCardBox_h1">'+ selectValue +'</h2>';
-    dataCardBox_txt = '<hr><img class="dataCardBox_img" src="/icons_down.png">' + dataCardBox_li_00;
+    dataCardBox_txt = '<hr><img class="dataCardBox_img" src="./icons_down.png">' + dataCardBox_li_00;
 
     if (selectValue !== '全部行政區') {
         pageNav.style.visibility = "hidden";
