@@ -43,6 +43,58 @@ h1 {
     line-height: 21px;
 }
 
+.btnBox {
+    width: 800px;
+    height: 112px;
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 5px;
+    padding-bottom: 10px;
+    top: 352px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.btnBox p {
+    font-size: 18px;
+    color: #000000;
+    margin-left: 26px;
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+
+.hitoBtn_Box {
+    margin-left: 51px;
+    
+}
+
+.hitoBtn {
+    display: inline-block;
+    width: 130px;
+    height: 42px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 42px;
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+.hitoBtn01 {
+    background: #8A82CC;
+}
+.hitoBtn02 {
+    background: #FFA782;
+}
+.hitoBtn03 {
+    background: #F5D005;
+}
+.hitoBtn04 {
+    background: #559AC8;
+}
+
 section {
     display: flex;
     flex-direction: column;
@@ -50,7 +102,7 @@ section {
 }
 
 .dataCardBox {
-    padding: 32px 32px 0px 32px;
+    padding: 130px 32px 0px 32px;
     width: 1024px;
     list-style: none;
     box-sizing: border-box;
@@ -187,3 +239,46 @@ footer h5 {
     color: #FFD366;
 }
 
+hr {
+    border: 1px solid #ffffff;
+    margin-bottom: 65px;
+    height: 30px;
+}
+hr::after {
+    content: '----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------';
+    display: block;
+    overflow: hidden;
+    width: 900px;
+    font-size: 12px;
+    height: 15px;
+    letter-spacing: 6px;
+    color: #559AC8;
+    line-height: 25px;
+}
+
+hr::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border: 1px solid #559AC8;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dataCardBox_img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 140px;
+    z-index: 20;
+}
+
+.dataCardBox_h1 {
+    font-size: 36px;
+    color: #8A82CC;
+    text-align: center;
+}

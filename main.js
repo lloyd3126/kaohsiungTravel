@@ -56,7 +56,9 @@ pageNavLi[1].style.color = '#559AC8';
 function select_change(e) {
     var selectValue = e.target.value;
     console.log(selectValue);
-    dataCardBox_txt = '';
+    
+    var dataCardBox_li_00 = '<h2 class="dataCardBox_h1">'+ selectValue +'</h2>';
+    dataCardBox_txt = '<hr><img class="dataCardBox_img" src="/icons_down.png">' + dataCardBox_li_00;
 
     if (selectValue !== '全部行政區') {
         pageNav.style.visibility = "hidden";
@@ -88,7 +90,7 @@ function select_change(e) {
                 } else {
                     var dataCardBox_li = dataCardBox_li_01;
                 }
-
+                 
                 dataCardBox_txt += dataCardBox_li;
             }
         }
